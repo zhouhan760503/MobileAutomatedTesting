@@ -1,0 +1,12 @@
+WARNING: --img-size 246 must be multiple of max stride 32, updating to 256
+0it [00:00, ?it/s]Scanning labels ../pics/labels/train2020.cache (1 found, 0 missing, 0 empty, 0 duplicate, for 1004 images): 1it [00:00, 2455.68it/s]
+Traceback (most recent call last):
+  File "train.py", line 482, in <module>
+    train(hyp, opt, device, tb_writer, wandb)
+  File "train.py", line 175, in train
+    dataloader, dataset = create_dataloader(train_path, imgsz, batch_size, gs, opt,
+  File "/Users/zhouhan/Downloads/2020大三资料/2020秋自动化测试/MobileAutomatedTesting/yolov5/utils/datasets.py", line 59, in create_dataloader
+    dataset = LoadImagesAndLabels(path, imgsz, batch_size,
+  File "/Users/zhouhan/Downloads/2020大三资料/2020秋自动化测试/MobileAutomatedTesting/yolov5/utils/datasets.py", line 420, in __init__
+    assert (l[:, 1:] <= 1).all(), 'non-normalized or out of bounds coordinate labels: %s' % file
+AssertionError: non-normalized or out of bounds coordinate labels: ../pics/labels/train2020/10418.txt

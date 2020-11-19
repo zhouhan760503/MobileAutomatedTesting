@@ -1,0 +1,14 @@
+WARNING: --img-size 2440 must be multiple of max stride 32, updating to 2464
+WARNING: --img-size 2440 must be multiple of max stride 32, updating to 2464
+Scanning images:   0%|          | 0/1004 [00:00<?, ?it/s]Scanning images:  10%|█         | 103/1004 [00:00<00:00, 1025.37it/s]Scanning images:  26%|██▌       | 260/1004 [00:00<00:00, 1143.29it/s]Scanning images:  41%|████      | 414/1004 [00:00<00:00, 1237.76it/s]Scanning images:  56%|█████▌    | 564/1004 [00:00<00:00, 1304.42it/s]Scanning images:  72%|███████▏  | 722/1004 [00:00<00:00, 1375.39it/s]Scanning images:  87%|████████▋ | 875/1004 [00:00<00:00, 1418.07it/s]Scanning images: 100%|██████████| 1004/1004 [00:00<00:00, 1466.21it/s]
+0it [00:00, ?it/s]0it [00:00, ?it/s]
+Traceback (most recent call last):
+  File "train.py", line 482, in <module>
+    train(hyp, opt, device, tb_writer, wandb)
+  File "train.py", line 175, in train
+    dataloader, dataset = create_dataloader(train_path, imgsz, batch_size, gs, opt,
+  File "/Users/zhouhan/Downloads/2020大三资料/2020秋自动化测试/MobileAutomatedTesting/yolov5/utils/datasets.py", line 59, in create_dataloader
+    dataset = LoadImagesAndLabels(path, imgsz, batch_size,
+  File "/Users/zhouhan/Downloads/2020大三资料/2020秋自动化测试/MobileAutomatedTesting/yolov5/utils/datasets.py", line 420, in __init__
+    assert (l[:, 1:] <= 1).all(), 'non-normalized or out of bounds coordinate labels: %s' % file
+AssertionError: non-normalized or out of bounds coordinate labels: ../pics/labels/train2020/1.txt

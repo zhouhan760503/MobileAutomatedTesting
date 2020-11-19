@@ -1,0 +1,178 @@
+2020-11-17 09:34:20,339 INFO    MainThread:41787 [internal.py:wandb_internal():63] W&B internal server running at pid: 41787
+2020-11-17 09:34:20,340 DEBUG   HandlerThread:41787 [handler.py:handle_request():55] handle_request: check_version
+2020-11-17 09:34:20,340 INFO    WriterThread:41787 [datastore.py:open_for_write():76] open: /Users/zhouhan/Downloads/2020大三资料/2020秋自动化测试/MobileAutomatedTesting/yolov5/wandb/run-20201117_093419-2ohkbsah/run-2ohkbsah.wandb
+2020-11-17 09:34:20,341 DEBUG   SenderThread:41787 [sender.py:send():90] send: header
+2020-11-17 09:34:20,341 DEBUG   SenderThread:41787 [sender.py:send():90] send: request
+2020-11-17 09:34:20,341 DEBUG   SenderThread:41787 [sender.py:send_request():99] send_request: check_version
+2020-11-17 09:34:20,343 DEBUG   Thread-4  :41787 [connectionpool.py:_new_conn():937] Starting new HTTPS connection (1): pypi.org:443
+2020-11-17 09:34:20,999 DEBUG   Thread-4  :41787 [connectionpool.py:_make_request():433] https://pypi.org:443 "GET /pypi/wandb/json HTTP/1.1" 200 51661
+2020-11-17 09:34:21,386 DEBUG   SenderThread:41787 [sender.py:send():90] send: run
+2020-11-17 09:34:21,394 INFO    SenderThread:41787 [sender.py:_maybe_setup_resume():280] checking resume status for None/YOLOv5/2ohkbsah
+2020-11-17 09:34:21,396 DEBUG   SenderThread:41787 [connectionpool.py:_new_conn():937] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-17 09:34:21,777 DEBUG   SenderThread:41787 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-11-17 09:34:21,781 DEBUG   SenderThread:41787 [cmd.py:execute():718] Popen(['git', 'cat-file', '--batch-check'], cwd=/Users/zhouhan/Downloads/2020大三资料/2020秋自动化测试/MobileAutomatedTesting/yolov5, universal_newlines=False, shell=None, istream=<valid stream>)
+2020-11-17 09:34:21,802 DEBUG   SenderThread:41787 [connectionpool.py:_new_conn():937] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-17 09:34:22,433 DEBUG   SenderThread:41787 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-11-17 09:34:22,440 INFO    SenderThread:41787 [dir_watcher.py:__init__():164] watching files in: /Users/zhouhan/Downloads/2020大三资料/2020秋自动化测试/MobileAutomatedTesting/yolov5/wandb/run-20201117_093419-2ohkbsah/files
+2020-11-17 09:34:22,440 INFO    SenderThread:41787 [sender.py:_start_run_threads():487] run started: 2ohkbsah with start time 1605576859
+2020-11-17 09:34:22,470 DEBUG   HandlerThread:41787 [handler.py:handle_request():55] handle_request: run_start
+2020-11-17 09:34:22,473 DEBUG   SenderThread:41787 [sender.py:send():90] send: summary
+2020-11-17 09:34:22,474 INFO    SenderThread:41787 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-17 09:34:22,475 DEBUG   HandlerThread:41787 [cmd.py:execute():718] Popen(['git', 'cat-file', '--batch-check'], cwd=/Users/zhouhan/Downloads/2020大三资料/2020秋自动化测试/MobileAutomatedTesting/yolov5, universal_newlines=False, shell=None, istream=<valid stream>)
+2020-11-17 09:34:22,488 DEBUG   HandlerThread:41787 [cmd.py:execute():718] Popen(['git', 'rev-parse', '--show-toplevel'], cwd=/Users/zhouhan/Downloads/2020大三资料/2020秋自动化测试/MobileAutomatedTesting/yolov5, universal_newlines=False, shell=None, istream=None)
+2020-11-17 09:34:22,535 DEBUG   SenderThread:41787 [sender.py:send():90] send: files
+2020-11-17 09:34:22,535 INFO    SenderThread:41787 [sender.py:_save_file():568] saving file wandb-metadata.json with policy now
+2020-11-17 09:34:22,538 DEBUG   HandlerThread:41787 [handler.py:handle_request():55] handle_request: status
+2020-11-17 09:34:22,539 DEBUG   SenderThread:41787 [sender.py:send():90] send: request
+2020-11-17 09:34:22,539 DEBUG   SenderThread:41787 [sender.py:send_request():99] send_request: status
+2020-11-17 09:34:22,540 DEBUG   Thread-11 :41787 [connectionpool.py:_new_conn():937] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-17 09:34:22,541 DEBUG   SenderThread:41787 [connectionpool.py:_new_conn():937] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-17 09:34:22,944 DEBUG   SenderThread:41787 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-11-17 09:34:22,944 DEBUG   Thread-11 :41787 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-11-17 09:34:22,950 DEBUG   Thread-11 :41787 [connectionpool.py:_new_conn():937] Starting new HTTPS connection (1): storage.googleapis.com:443
+2020-11-17 09:34:23,442 INFO    Thread-8  :41787 [dir_watcher.py:_on_file_created():212] file/dir created: /Users/zhouhan/Downloads/2020大三资料/2020秋自动化测试/MobileAutomatedTesting/yolov5/wandb/run-20201117_093419-2ohkbsah/files/output.log
+2020-11-17 09:34:23,443 INFO    Thread-8  :41787 [dir_watcher.py:_on_file_created():212] file/dir created: /Users/zhouhan/Downloads/2020大三资料/2020秋自动化测试/MobileAutomatedTesting/yolov5/wandb/run-20201117_093419-2ohkbsah/files/wandb-metadata.json
+2020-11-17 09:34:23,443 INFO    Thread-8  :41787 [dir_watcher.py:_on_file_created():212] file/dir created: /Users/zhouhan/Downloads/2020大三资料/2020秋自动化测试/MobileAutomatedTesting/yolov5/wandb/run-20201117_093419-2ohkbsah/files/wandb-summary.json
+2020-11-17 09:34:23,443 INFO    Thread-8  :41787 [dir_watcher.py:_on_file_created():212] file/dir created: /Users/zhouhan/Downloads/2020大三资料/2020秋自动化测试/MobileAutomatedTesting/yolov5/wandb/run-20201117_093419-2ohkbsah/files/requirements.txt
+2020-11-17 09:34:23,518 DEBUG   Thread-11 :41787 [connectionpool.py:_make_request():433] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/theadore/YOLOv5/2ohkbsah/wandb-metadata.json?Expires=1605663262&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=MPo9Cug0j9KqI55GmUptqfJn3P2kjG4w%2FWMzsKVKj9LT9pdA3ITpH4cAhUkiqnoWPh79ri8QJ5kr6ibX4wMZJPtKjPrB7c52xCApoGt0Shu%2BWTImmIoQ59T6ckoCgSPUGrZX7snCOtANMTVSckYMPISmtzT18qYt%2FQ2%2BXqDIWCMjyeBsjixXpJFfj1yOVtoEGtNGScFpBQkpmvrFEjnxdanah%2FoZ6Cxhxw%2FBmUJ0VXvYOXosgwwii%2BfZVg%2FsLImNqRLNntazOJjGtGqeEMlayP%2FSldIUaZLVIgV8udY8Gq%2FtMh358P0xMNk23kXWCc0IiF7CBtQQvxlx8cjajuU7EA%3D%3D HTTP/1.1" 200 0
+2020-11-17 09:34:23,520 INFO    Thread-11 :41787 [upload_job.py:push():131] Uploaded file /var/folders/c0/lbx1p0vj5r16c2c3n37ky5980000gn/T/tmp1nhzjl4rwandb/mq7v3fva-wandb-metadata.json
+2020-11-17 09:34:25,248 DEBUG   Thread-5  :41787 [connectionpool.py:_new_conn():937] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-17 09:34:25,861 DEBUG   SenderThread:41787 [sender.py:send():90] send: stats
+2020-11-17 09:34:26,166 DEBUG   Thread-5  :41787 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/theadore/YOLOv5/2ohkbsah/file_stream HTTP/1.1" 200 None
+2020-11-17 09:34:28,460 DEBUG   Thread-5  :41787 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/theadore/YOLOv5/2ohkbsah/file_stream HTTP/1.1" 200 None
+2020-11-17 09:34:30,344 DEBUG   SenderThread:41787 [sender.py:send():90] send: stats
+2020-11-17 09:34:30,817 DEBUG   Thread-5  :41787 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/theadore/YOLOv5/2ohkbsah/file_stream HTTP/1.1" 200 None
+2020-11-17 09:34:31,452 INFO    Thread-8  :41787 [dir_watcher.py:_on_file_modified():225] file/dir modified: /Users/zhouhan/Downloads/2020大三资料/2020秋自动化测试/MobileAutomatedTesting/yolov5/wandb/run-20201117_093419-2ohkbsah/files/output.log
+2020-11-17 09:34:33,701 DEBUG   Thread-5  :41787 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/theadore/YOLOv5/2ohkbsah/file_stream HTTP/1.1" 200 None
+2020-11-17 09:34:34,826 DEBUG   SenderThread:41787 [sender.py:send():90] send: stats
+2020-11-17 09:34:37,109 DEBUG   Thread-5  :41787 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/theadore/YOLOv5/2ohkbsah/file_stream HTTP/1.1" 200 None
+2020-11-17 09:34:37,955 DEBUG   HandlerThread:41787 [handler.py:handle_request():55] handle_request: status
+2020-11-17 09:34:37,956 DEBUG   SenderThread:41787 [sender.py:send():90] send: request
+2020-11-17 09:34:37,956 DEBUG   SenderThread:41787 [sender.py:send_request():99] send_request: status
+2020-11-17 09:34:37,959 DEBUG   SenderThread:41787 [connectionpool.py:_new_conn():937] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-17 09:34:38,567 DEBUG   SenderThread:41787 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-11-17 09:34:39,310 DEBUG   SenderThread:41787 [sender.py:send():90] send: stats
+2020-11-17 09:34:39,609 DEBUG   Thread-5  :41787 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/theadore/YOLOv5/2ohkbsah/file_stream HTTP/1.1" 200 None
+2020-11-17 09:34:43,758 DEBUG   SenderThread:41787 [sender.py:send():90] send: stats
+2020-11-17 09:34:44,083 DEBUG   Thread-5  :41787 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/theadore/YOLOv5/2ohkbsah/file_stream HTTP/1.1" 200 None
+2020-11-17 09:34:48,231 DEBUG   SenderThread:41787 [sender.py:send():90] send: stats
+2020-11-17 09:34:48,719 DEBUG   Thread-5  :41787 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/theadore/YOLOv5/2ohkbsah/file_stream HTTP/1.1" 200 None
+2020-11-17 09:34:52,495 INFO    Thread-8  :41787 [dir_watcher.py:_on_file_modified():225] file/dir modified: /Users/zhouhan/Downloads/2020大三资料/2020秋自动化测试/MobileAutomatedTesting/yolov5/wandb/run-20201117_093419-2ohkbsah/files/output.log
+2020-11-17 09:34:52,623 DEBUG   Thread-5  :41787 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/theadore/YOLOv5/2ohkbsah/file_stream HTTP/1.1" 200 None
+2020-11-17 09:34:52,722 DEBUG   SenderThread:41787 [sender.py:send():90] send: stats
+2020-11-17 09:34:53,495 INFO    Thread-8  :41787 [dir_watcher.py:_on_file_modified():225] file/dir modified: /Users/zhouhan/Downloads/2020大三资料/2020秋自动化测试/MobileAutomatedTesting/yolov5/wandb/run-20201117_093419-2ohkbsah/files/output.log
+2020-11-17 09:34:53,571 DEBUG   HandlerThread:41787 [handler.py:handle_request():55] handle_request: status
+2020-11-17 09:34:53,571 DEBUG   SenderThread:41787 [sender.py:send():90] send: request
+2020-11-17 09:34:53,571 DEBUG   SenderThread:41787 [sender.py:send_request():99] send_request: status
+2020-11-17 09:34:53,573 DEBUG   SenderThread:41787 [connectionpool.py:_new_conn():937] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-17 09:34:54,145 DEBUG   SenderThread:41787 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-11-17 09:34:54,497 INFO    Thread-8  :41787 [dir_watcher.py:_on_file_modified():225] file/dir modified: /Users/zhouhan/Downloads/2020大三资料/2020秋自动化测试/MobileAutomatedTesting/yolov5/wandb/run-20201117_093419-2ohkbsah/files/output.log
+2020-11-17 09:34:55,055 DEBUG   Thread-5  :41787 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/theadore/YOLOv5/2ohkbsah/file_stream HTTP/1.1" 200 None
+2020-11-17 09:34:55,497 INFO    Thread-8  :41787 [dir_watcher.py:_on_file_modified():225] file/dir modified: /Users/zhouhan/Downloads/2020大三资料/2020秋自动化测试/MobileAutomatedTesting/yolov5/wandb/run-20201117_093419-2ohkbsah/files/output.log
+2020-11-17 09:34:56,502 INFO    Thread-8  :41787 [dir_watcher.py:_on_file_modified():225] file/dir modified: /Users/zhouhan/Downloads/2020大三资料/2020秋自动化测试/MobileAutomatedTesting/yolov5/wandb/run-20201117_093419-2ohkbsah/files/output.log
+2020-11-17 09:34:57,219 DEBUG   SenderThread:41787 [sender.py:send():90] send: stats
+2020-11-17 09:34:57,500 DEBUG   Thread-5  :41787 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/theadore/YOLOv5/2ohkbsah/file_stream HTTP/1.1" 200 None
+2020-11-17 09:34:57,507 INFO    Thread-8  :41787 [dir_watcher.py:_on_file_modified():225] file/dir modified: /Users/zhouhan/Downloads/2020大三资料/2020秋自动化测试/MobileAutomatedTesting/yolov5/wandb/run-20201117_093419-2ohkbsah/files/output.log
+2020-11-17 09:35:01,700 DEBUG   SenderThread:41787 [sender.py:send():90] send: stats
+2020-11-17 09:35:01,985 DEBUG   Thread-5  :41787 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/theadore/YOLOv5/2ohkbsah/file_stream HTTP/1.1" 200 None
+2020-11-17 09:35:06,177 DEBUG   SenderThread:41787 [sender.py:send():90] send: stats
+2020-11-17 09:35:06,498 DEBUG   Thread-5  :41787 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/theadore/YOLOv5/2ohkbsah/file_stream HTTP/1.1" 200 None
+2020-11-17 09:35:09,148 DEBUG   HandlerThread:41787 [handler.py:handle_request():55] handle_request: status
+2020-11-17 09:35:09,149 DEBUG   SenderThread:41787 [sender.py:send():90] send: request
+2020-11-17 09:35:09,149 DEBUG   SenderThread:41787 [sender.py:send_request():99] send_request: status
+2020-11-17 09:35:09,173 DEBUG   SenderThread:41787 [connectionpool.py:_new_conn():937] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-17 09:35:09,655 DEBUG   SenderThread:41787 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-11-17 09:35:10,683 DEBUG   SenderThread:41787 [sender.py:send():90] send: stats
+2020-11-17 09:35:10,979 DEBUG   Thread-5  :41787 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/theadore/YOLOv5/2ohkbsah/file_stream HTTP/1.1" 200 None
+2020-11-17 09:35:15,148 DEBUG   SenderThread:41787 [sender.py:send():90] send: stats
+2020-11-17 09:35:15,433 DEBUG   Thread-5  :41787 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/theadore/YOLOv5/2ohkbsah/file_stream HTTP/1.1" 200 None
+2020-11-17 09:35:19,646 DEBUG   SenderThread:41787 [sender.py:send():90] send: stats
+2020-11-17 09:35:24,155 DEBUG   SenderThread:41787 [sender.py:send():90] send: stats
+2020-11-17 09:35:24,663 DEBUG   HandlerThread:41787 [handler.py:handle_request():55] handle_request: status
+2020-11-17 09:35:24,663 DEBUG   SenderThread:41787 [sender.py:send():90] send: request
+2020-11-17 09:35:24,663 DEBUG   SenderThread:41787 [sender.py:send_request():99] send_request: status
+2020-11-17 09:35:24,671 DEBUG   SenderThread:41787 [connectionpool.py:_new_conn():937] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-17 09:35:25,119 DEBUG   SenderThread:41787 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-11-17 09:35:28,661 DEBUG   SenderThread:41787 [sender.py:send():90] send: stats
+2020-11-17 09:35:28,947 DEBUG   Thread-5  :41787 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/theadore/YOLOv5/2ohkbsah/file_stream HTTP/1.1" 200 None
+2020-11-17 09:35:33,151 DEBUG   SenderThread:41787 [sender.py:send():90] send: stats
+2020-11-17 09:35:37,644 DEBUG   SenderThread:41787 [sender.py:send():90] send: stats
+2020-11-17 09:35:40,124 DEBUG   HandlerThread:41787 [handler.py:handle_request():55] handle_request: status
+2020-11-17 09:35:40,124 DEBUG   SenderThread:41787 [sender.py:send():90] send: request
+2020-11-17 09:35:40,125 DEBUG   SenderThread:41787 [sender.py:send_request():99] send_request: status
+2020-11-17 09:35:40,140 DEBUG   SenderThread:41787 [connectionpool.py:_new_conn():937] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-17 09:35:40,552 DEBUG   SenderThread:41787 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-11-17 09:35:42,103 DEBUG   SenderThread:41787 [sender.py:send():90] send: stats
+2020-11-17 09:35:42,435 DEBUG   Thread-5  :41787 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/theadore/YOLOv5/2ohkbsah/file_stream HTTP/1.1" 200 None
+2020-11-17 09:35:46,608 DEBUG   SenderThread:41787 [sender.py:send():90] send: stats
+2020-11-17 09:35:51,114 DEBUG   SenderThread:41787 [sender.py:send():90] send: stats
+2020-11-17 09:35:55,563 DEBUG   HandlerThread:41787 [handler.py:handle_request():55] handle_request: status
+2020-11-17 09:35:55,571 DEBUG   SenderThread:41787 [sender.py:send():90] send: request
+2020-11-17 09:35:55,571 DEBUG   SenderThread:41787 [sender.py:send_request():99] send_request: status
+2020-11-17 09:35:55,579 DEBUG   SenderThread:41787 [connectionpool.py:_new_conn():937] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-17 09:35:56,187 DEBUG   SenderThread:41787 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-11-17 09:35:56,190 DEBUG   SenderThread:41787 [sender.py:send():90] send: stats
+2020-11-17 09:35:56,469 DEBUG   Thread-5  :41787 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/theadore/YOLOv5/2ohkbsah/file_stream HTTP/1.1" 200 None
+2020-11-17 09:36:00,124 DEBUG   SenderThread:41787 [sender.py:send():90] send: stats
+2020-11-17 09:36:04,657 DEBUG   SenderThread:41787 [sender.py:send():90] send: stats
+2020-11-17 09:36:09,129 DEBUG   SenderThread:41787 [sender.py:send():90] send: stats
+2020-11-17 09:36:09,671 DEBUG   Thread-5  :41787 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/theadore/YOLOv5/2ohkbsah/file_stream HTTP/1.1" 200 None
+2020-11-17 09:36:11,210 DEBUG   HandlerThread:41787 [handler.py:handle_request():55] handle_request: status
+2020-11-17 09:36:11,210 DEBUG   SenderThread:41787 [sender.py:send():90] send: request
+2020-11-17 09:36:11,210 DEBUG   SenderThread:41787 [sender.py:send_request():99] send_request: status
+2020-11-17 09:36:11,221 DEBUG   SenderThread:41787 [connectionpool.py:_new_conn():937] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-17 09:36:11,923 DEBUG   SenderThread:41787 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-11-17 09:36:13,656 DEBUG   SenderThread:41787 [sender.py:send():90] send: stats
+2020-11-17 09:36:18,147 DEBUG   SenderThread:41787 [sender.py:send():90] send: stats
+2020-11-17 09:36:22,671 DEBUG   SenderThread:41787 [sender.py:send():90] send: stats
+2020-11-17 09:36:23,059 DEBUG   Thread-5  :41787 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/theadore/YOLOv5/2ohkbsah/file_stream HTTP/1.1" 200 None
+2020-11-17 09:36:26,932 DEBUG   HandlerThread:41787 [handler.py:handle_request():55] handle_request: status
+2020-11-17 09:36:26,932 DEBUG   SenderThread:41787 [sender.py:send():90] send: request
+2020-11-17 09:36:26,932 DEBUG   SenderThread:41787 [sender.py:send_request():99] send_request: status
+2020-11-17 09:36:26,934 DEBUG   SenderThread:41787 [connectionpool.py:_new_conn():937] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-17 09:36:27,496 DEBUG   SenderThread:41787 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-11-17 09:36:27,502 DEBUG   SenderThread:41787 [sender.py:send():90] send: stats
+2020-11-17 09:36:31,811 DEBUG   SenderThread:41787 [sender.py:send():90] send: stats
+2020-11-17 09:36:36,315 DEBUG   SenderThread:41787 [sender.py:send():90] send: stats
+2020-11-17 09:36:36,693 DEBUG   Thread-5  :41787 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/theadore/YOLOv5/2ohkbsah/file_stream HTTP/1.1" 200 None
+2020-11-17 09:36:40,815 DEBUG   SenderThread:41787 [sender.py:send():90] send: stats
+2020-11-17 09:36:42,511 DEBUG   HandlerThread:41787 [handler.py:handle_request():55] handle_request: status
+2020-11-17 09:36:42,511 DEBUG   SenderThread:41787 [sender.py:send():90] send: request
+2020-11-17 09:36:42,511 DEBUG   SenderThread:41787 [sender.py:send_request():99] send_request: status
+2020-11-17 09:36:42,517 DEBUG   SenderThread:41787 [connectionpool.py:_new_conn():937] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-17 09:36:42,983 DEBUG   SenderThread:41787 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-11-17 09:36:45,289 DEBUG   SenderThread:41787 [sender.py:send():90] send: stats
+2020-11-17 09:36:49,809 DEBUG   SenderThread:41787 [sender.py:send():90] send: stats
+2020-11-17 09:36:50,153 DEBUG   Thread-5  :41787 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/theadore/YOLOv5/2ohkbsah/file_stream HTTP/1.1" 200 None
+2020-11-17 09:36:54,304 DEBUG   SenderThread:41787 [sender.py:send():90] send: stats
+2020-11-17 09:36:57,986 DEBUG   HandlerThread:41787 [handler.py:handle_request():55] handle_request: status
+2020-11-17 09:36:57,987 DEBUG   SenderThread:41787 [sender.py:send():90] send: request
+2020-11-17 09:36:57,987 DEBUG   SenderThread:41787 [sender.py:send_request():99] send_request: status
+2020-11-17 09:36:57,990 DEBUG   SenderThread:41787 [connectionpool.py:_new_conn():937] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-17 09:36:58,477 DEBUG   SenderThread:41787 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-11-17 09:36:58,786 DEBUG   SenderThread:41787 [sender.py:send():90] send: stats
+2020-11-17 09:37:03,314 DEBUG   SenderThread:41787 [sender.py:send():90] send: stats
+2020-11-17 09:37:03,646 DEBUG   Thread-5  :41787 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/theadore/YOLOv5/2ohkbsah/file_stream HTTP/1.1" 200 None
+2020-11-17 09:37:07,844 DEBUG   SenderThread:41787 [sender.py:send():90] send: stats
+2020-11-17 09:37:12,320 DEBUG   SenderThread:41787 [sender.py:send():90] send: stats
+2020-11-17 09:37:13,496 DEBUG   HandlerThread:41787 [handler.py:handle_request():55] handle_request: status
+2020-11-17 09:37:13,496 DEBUG   SenderThread:41787 [sender.py:send():90] send: request
+2020-11-17 09:37:13,496 DEBUG   SenderThread:41787 [sender.py:send_request():99] send_request: status
+2020-11-17 09:37:13,536 DEBUG   SenderThread:41787 [connectionpool.py:_new_conn():937] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-17 09:37:14,116 DEBUG   SenderThread:41787 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-11-17 09:37:16,830 DEBUG   SenderThread:41787 [sender.py:send():90] send: stats
+2020-11-17 09:37:17,088 DEBUG   Thread-5  :41787 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/theadore/YOLOv5/2ohkbsah/file_stream HTTP/1.1" 200 None
+2020-11-17 09:37:21,342 DEBUG   SenderThread:41787 [sender.py:send():90] send: stats
+2020-11-17 09:37:25,834 DEBUG   SenderThread:41787 [sender.py:send():90] send: stats
+2020-11-17 09:37:29,135 DEBUG   HandlerThread:41787 [handler.py:handle_request():55] handle_request: status
+2020-11-17 09:37:29,136 DEBUG   SenderThread:41787 [sender.py:send():90] send: request
+2020-11-17 09:37:29,137 DEBUG   SenderThread:41787 [sender.py:send_request():99] send_request: status
+2020-11-17 09:37:29,145 DEBUG   SenderThread:41787 [connectionpool.py:_new_conn():937] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-17 09:37:29,708 DEBUG   SenderThread:41787 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-11-17 09:37:30,334 DEBUG   SenderThread:41787 [sender.py:send():90] send: stats
+2020-11-17 09:37:30,762 DEBUG   Thread-5  :41787 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/theadore/YOLOv5/2ohkbsah/file_stream HTTP/1.1" 200 None
+2020-11-17 09:37:34,508 WARNING MainThread:41787 [internal.py:wandb_internal():117] Internal process interrupt: 1
+2020-11-17 09:37:34,868 DEBUG   SenderThread:41787 [sender.py:send():90] send: stats
+2020-11-17 09:37:39,355 DEBUG   SenderThread:41787 [sender.py:send():90] send: stats
+2020-11-17 09:37:43,837 DEBUG   SenderThread:41787 [sender.py:send():90] send: stats
+2020-11-17 09:37:44,121 DEBUG   Thread-5  :41787 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/theadore/YOLOv5/2ohkbsah/file_stream HTTP/1.1" 200 None

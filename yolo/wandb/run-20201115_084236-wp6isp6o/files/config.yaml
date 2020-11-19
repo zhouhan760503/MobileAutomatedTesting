@@ -1,0 +1,105 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.10.10
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.8.1
+adam:
+  desc: null
+  value: false
+batch_size:
+  desc: null
+  value: 16
+bucket:
+  desc: null
+  value: ''
+cache_images:
+  desc: null
+  value: false
+cfg:
+  desc: null
+  value: ./models/yolov5s.yaml
+data:
+  desc: null
+  value: ./data/coco128.yaml
+device:
+  desc: null
+  value: ''
+epochs:
+  desc: null
+  value: 5
+evolve:
+  desc: null
+  value: false
+exist_ok:
+  desc: null
+  value: false
+global_rank:
+  desc: null
+  value: -1
+hyp:
+  desc: null
+  value: data/hyp.scratch.yaml
+image_weights:
+  desc: null
+  value: false
+img_size:
+  desc: null
+  value:
+  - 640
+  - 640
+local_rank:
+  desc: null
+  value: -1
+log_imgs:
+  desc: null
+  value: 10
+multi_scale:
+  desc: null
+  value: false
+name:
+  desc: null
+  value: exp
+noautoanchor:
+  desc: null
+  value: false
+nosave:
+  desc: null
+  value: false
+notest:
+  desc: null
+  value: false
+project:
+  desc: null
+  value: runs/train
+rect:
+  desc: null
+  value: false
+resume:
+  desc: null
+  value: false
+save_dir:
+  desc: null
+  value: runs/train/exp4
+single_cls:
+  desc: null
+  value: false
+sync_bn:
+  desc: null
+  value: false
+total_batch_size:
+  desc: null
+  value: 16
+weights:
+  desc: null
+  value: ''
+workers:
+  desc: null
+  value: 8
+world_size:
+  desc: null
+  value: 1

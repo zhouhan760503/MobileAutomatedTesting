@@ -1,0 +1,14 @@
+WARNING: --img-size 2440 must be multiple of max stride 32, updating to 2464
+WARNING: --img-size 2440 must be multiple of max stride 32, updating to 2464
+Scanning images:   0%|          | 0/1004 [00:00<?, ?it/s]Scanning images:  17%|█▋        | 172/1004 [00:00<00:00, 1719.00it/s]Scanning images:  39%|███▊      | 388/1004 [00:00<00:00, 1830.51it/s]Scanning images:  62%|██████▏   | 620/1004 [00:00<00:00, 1953.71it/s]Scanning images:  84%|████████▍ | 846/1004 [00:00<00:00, 2036.25it/s]Scanning images: 100%|██████████| 1004/1004 [00:00<00:00, 2130.06it/s]
+0it [00:00, ?it/s]Scanning labels ../pics/labels/train2020.cache (1 found, 0 missing, 0 empty, 0 duplicate, for 1004 images): 1it [00:00, 1372.03it/s]
+Traceback (most recent call last):
+  File "train.py", line 482, in <module>
+    train(hyp, opt, device, tb_writer, wandb)
+  File "train.py", line 175, in train
+    dataloader, dataset = create_dataloader(train_path, imgsz, batch_size, gs, opt,
+  File "/Users/zhouhan/Downloads/2020大三资料/2020秋自动化测试/MobileAutomatedTesting/yolov5/utils/datasets.py", line 59, in create_dataloader
+    dataset = LoadImagesAndLabels(path, imgsz, batch_size,
+  File "/Users/zhouhan/Downloads/2020大三资料/2020秋自动化测试/MobileAutomatedTesting/yolov5/utils/datasets.py", line 419, in __init__
+    assert (l >= 0).all(), 'negative labels: %s' % file
+AssertionError: negative labels: ../pics/labels/train2020/10418.txt

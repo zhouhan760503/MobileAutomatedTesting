@@ -1,0 +1,33 @@
+{
+    "os": "macOS-10.15.7-x86_64-i386-64bit",
+    "python": "3.8.1",
+    "heartbeatAt": "2020-11-16T13:21:28.819688",
+    "startedAt": "2020-11-16T13:21:25.943512",
+    "docker": null,
+    "cpu_count": 16,
+    "cuda": null,
+    "args": [
+        "--img",
+        "2440",
+        "--batch",
+        "16",
+        "--epochs",
+        "5",
+        "--data",
+        "pics.yaml",
+        "--weights",
+        "yolov5s.pt"
+    ],
+    "state": "running",
+    "codePath": "train.py",
+    "program": "train.py",
+    "git": {
+        "remote": "https://github.com/ultralytics/yolov5",
+        "commit": "9f27902368b6c98e5483e9c1b55396c8a90c5501"
+    },
+    "email": "525989789@qq.com",
+    "root": "/Users/zhouhan/Downloads/2020\u5927\u4e09\u8d44\u6599/2020\u79cb\u81ea\u52a8\u5316\u6d4b\u8bd5/MobileAutomatedTesting/yolov5",
+    "host": "you0ma.local",
+    "username": "zhouhan",
+    "executable": "/Library/Frameworks/Python.framework/Versions/3.8/bin/python3.8"
+}
